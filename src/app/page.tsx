@@ -27,7 +27,7 @@ export default function Contador() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800">
       <main className="text-center">
-        <h1 className="text-2xl mb-4 bg-purple-800">Contador: {numero}</h1>
+        <p className="text-2xl mb-4 bg-purple-800">Contador: {numero}</p>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={incrementar}>Incrementar</button>
       </main>
     </div>
